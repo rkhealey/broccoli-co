@@ -11,4 +11,6 @@
 ### To run tests
 - ```npm t```
 
+### To build
+- ```npm run build```
 
