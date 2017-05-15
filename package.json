@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npm run clean && webpack -p",
-    "clean": "rm -r dist/*",
+    "clean": "rm -r dist/* || true",
     "lint": "concurrently \"eslint --ext .js,.jsx ./src\" \"sass-lint\"",
     "lint:staged": "lint-staged",
     "test": "jest",
