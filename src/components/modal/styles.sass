@@ -1,0 +1,40 @@
+@import '~global/borders'
+@import '~global/colors'
+@import '~global/type'
+
+
+.container
+  width: 100%
+
+.overlay
+  align-items: center
+  background-color: $grey
+  bottom: 0
+  display: flex
+  justify-content: center
+  left: 0
+  opacity: 0.9
+  position: fixed
+  right: 0
+  top: 0
+  z-index: 600
+
+.modal
+  background-color: $white
+  border-radius: $border-radius
+  margin: 0 auto
+  max-width: 400px
+  opacity: 0
+  padding: 25px
+  position: relative
+  transform: translateY(-250px)
+  width: 90%
+  z-index: 700
+
+  &.isOpen
+    opacity: 1
+
+.closeBtn
+  position: absolute
+  right: 15px
+  top: 10px

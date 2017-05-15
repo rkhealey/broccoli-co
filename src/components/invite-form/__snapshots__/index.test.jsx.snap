@@ -1,0 +1,953 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/invite-form renders with error 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div>
+        <FormHeading>
+            Request an invite
+        </FormHeading>
+        <form
+            className="form"
+            onSubmit={undefined}
+        >
+            <div>
+                <Field
+                    component={[Function]}
+                    label="Full Name"
+                    name="name"
+                    placeholder="Full Name"
+                    type="text"
+                />
+                <Field
+                    component={[Function]}
+                    label="Email"
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                />
+                <Field
+                    component={[Function]}
+                    label="Confirm email"
+                    name="confirmEmail"
+                    placeholder="Confirm email"
+                    type="email"
+                />
+            </div>
+            <Button
+                className="submitBtn"
+                onClick={undefined}
+                theme="default"
+                type="submit"
+            >
+                Send
+            </Button>
+        </form>
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div>
+            <FormHeading>
+                  Request an invite
+            </FormHeading>
+            <form
+                  className="form"
+                  onSubmit={undefined}
+            >
+                  <div>
+                        <Field
+                              component={[Function]}
+                              label="Full Name"
+                              name="name"
+                              placeholder="Full Name"
+                              type="text"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Email"
+                              name="email"
+                              placeholder="Email"
+                              type="email"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Confirm email"
+                              name="confirmEmail"
+                              placeholder="Confirm email"
+                              type="email"
+                        />
+                  </div>
+                  <Button
+                        className="submitBtn"
+                        onClick={undefined}
+                        theme="default"
+                        type="submit"
+                  >
+                        Send
+                  </Button>
+            </form>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <InviteForm
+        actions={
+                Object {
+                        "requestInvite": [Function],
+                      }
+        }
+        error="Oops"
+        handleSubmit={[Function]}
+        onClose={[Function]}
+        submitFailed={false}
+        submitSucceeded={false}
+        submitted={false}
+        submitting={false}
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": InviteForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSubmit": [Function],
+        "props": Object {
+          "actions": Object {
+            "requestInvite": [Function],
+          },
+          "error": "Oops",
+          "handleSubmit": [Function],
+          "onClose": [Function],
+          "submitFailed": false,
+          "submitSucceeded": false,
+          "submitted": false,
+          "submitting": false,
+        },
+        "refs": Object {},
+        "renderField": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                    </form>
+          </div>
+</div>,
+        "_debugID": 4,
+        "_renderedOutput": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                    </form>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <InviteForm
+    actions={
+        Object {
+            "requestInvite": [Function],
+          }
+    }
+    error="Oops"
+    handleSubmit={[Function]}
+    onClose={[Function]}
+    submitFailed={false}
+    submitSucceeded={false}
+    submitted={false}
+    submitting={false}
+/>,
+}
+`;
+
+exports[`components/invite-form renders with simple props 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div>
+        <FormHeading>
+            Request an invite
+        </FormHeading>
+        <form
+            className="form"
+            onSubmit={undefined}
+        >
+            <div>
+                <Field
+                    component={[Function]}
+                    label="Full Name"
+                    name="name"
+                    placeholder="Full Name"
+                    type="text"
+                />
+                <Field
+                    component={[Function]}
+                    label="Email"
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                />
+                <Field
+                    component={[Function]}
+                    label="Confirm email"
+                    name="confirmEmail"
+                    placeholder="Confirm email"
+                    type="email"
+                />
+            </div>
+            <Button
+                className="submitBtn"
+                onClick={undefined}
+                theme="default"
+                type="submit"
+            >
+                Send
+            </Button>
+        </form>
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div>
+            <FormHeading>
+                  Request an invite
+            </FormHeading>
+            <form
+                  className="form"
+                  onSubmit={undefined}
+            >
+                  <div>
+                        <Field
+                              component={[Function]}
+                              label="Full Name"
+                              name="name"
+                              placeholder="Full Name"
+                              type="text"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Email"
+                              name="email"
+                              placeholder="Email"
+                              type="email"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Confirm email"
+                              name="confirmEmail"
+                              placeholder="Confirm email"
+                              type="email"
+                        />
+                  </div>
+                  <Button
+                        className="submitBtn"
+                        onClick={undefined}
+                        theme="default"
+                        type="submit"
+                  >
+                        Send
+                  </Button>
+            </form>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <InviteForm
+        actions={
+                Object {
+                        "requestInvite": [Function],
+                      }
+        }
+        error={undefined}
+        handleSubmit={[Function]}
+        onClose={[Function]}
+        submitFailed={false}
+        submitSucceeded={false}
+        submitted={false}
+        submitting={false}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": InviteForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSubmit": [Function],
+        "props": Object {
+          "actions": Object {
+            "requestInvite": [Function],
+          },
+          "error": undefined,
+          "handleSubmit": [Function],
+          "onClose": [Function],
+          "submitFailed": false,
+          "submitSucceeded": false,
+          "submitted": false,
+          "submitting": false,
+        },
+        "refs": Object {},
+        "renderField": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                    </form>
+          </div>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                    </form>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <InviteForm
+    actions={
+        Object {
+            "requestInvite": [Function],
+          }
+    }
+    error={undefined}
+    handleSubmit={[Function]}
+    onClose={[Function]}
+    submitFailed={false}
+    submitSucceeded={false}
+    submitted={false}
+    submitting={false}
+/>,
+}
+`;
+
+exports[`components/invite-form renders with submitFailed 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <div>
+        <FormHeading>
+            Request an invite
+        </FormHeading>
+        <form
+            className="form"
+            onSubmit={undefined}
+        >
+            <div>
+                <Field
+                    component={[Function]}
+                    label="Full Name"
+                    name="name"
+                    placeholder="Full Name"
+                    type="text"
+                />
+                <Field
+                    component={[Function]}
+                    label="Email"
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                />
+                <Field
+                    component={[Function]}
+                    label="Confirm email"
+                    name="confirmEmail"
+                    placeholder="Confirm email"
+                    type="email"
+                />
+            </div>
+            <Button
+                className="submitBtn"
+                onClick={undefined}
+                theme="default"
+                type="submit"
+            >
+                Send
+            </Button>
+            <p
+                className="errorMsg"
+            >
+                Oops
+            </p>
+        </form>
+    </div>
+</div>,
+  "nodes": Array [
+    <div>
+      <div>
+            <FormHeading>
+                  Request an invite
+            </FormHeading>
+            <form
+                  className="form"
+                  onSubmit={undefined}
+            >
+                  <div>
+                        <Field
+                              component={[Function]}
+                              label="Full Name"
+                              name="name"
+                              placeholder="Full Name"
+                              type="text"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Email"
+                              name="email"
+                              placeholder="Email"
+                              type="email"
+                        />
+                        <Field
+                              component={[Function]}
+                              label="Confirm email"
+                              name="confirmEmail"
+                              placeholder="Confirm email"
+                              type="email"
+                        />
+                  </div>
+                  <Button
+                        className="submitBtn"
+                        onClick={undefined}
+                        theme="default"
+                        type="submit"
+                  >
+                        Send
+                  </Button>
+                  <p
+                        className="errorMsg"
+                  >
+                        Oops
+                  </p>
+            </form>
+      </div>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <InviteForm
+        actions={
+                Object {
+                        "requestInvite": [Function],
+                      }
+        }
+        error="Oops"
+        handleSubmit={[Function]}
+        onClose={[Function]}
+        submitFailed={true}
+        submitSucceeded={false}
+        submitted={false}
+        submitting={false}
+/>,
+      "_debugID": 9,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": InviteForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSubmit": [Function],
+        "props": Object {
+          "actions": Object {
+            "requestInvite": [Function],
+          },
+          "error": "Oops",
+          "handleSubmit": [Function],
+          "onClose": [Function],
+          "submitFailed": true,
+          "submitSucceeded": false,
+          "submitted": false,
+          "submitting": false,
+        },
+        "refs": Object {},
+        "renderField": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 5,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                              <p
+                                        className="errorMsg"
+                              >
+                                        Oops
+                              </p>
+                    </form>
+          </div>
+</div>,
+        "_debugID": 10,
+        "_renderedOutput": <div>
+          <div>
+                    <FormHeading>
+                              Request an invite
+                    </FormHeading>
+                    <form
+                              className="form"
+                              onSubmit={undefined}
+                    >
+                              <div>
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Full Name"
+                                                  name="name"
+                                                  placeholder="Full Name"
+                                                  type="text"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Email"
+                                                  name="email"
+                                                  placeholder="Email"
+                                                  type="email"
+                                        />
+                                        <Field
+                                                  component={[Function]}
+                                                  label="Confirm email"
+                                                  name="confirmEmail"
+                                                  placeholder="Confirm email"
+                                                  type="email"
+                                        />
+                              </div>
+                              <Button
+                                        className="submitBtn"
+                                        onClick={undefined}
+                                        theme="default"
+                                        type="submit"
+                              >
+                                        Send
+                              </Button>
+                              <p
+                                        className="errorMsg"
+                              >
+                                        Oops
+                              </p>
+                    </form>
+          </div>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <InviteForm
+    actions={
+        Object {
+            "requestInvite": [Function],
+          }
+    }
+    error="Oops"
+    handleSubmit={[Function]}
+    onClose={[Function]}
+    submitFailed={true}
+    submitSucceeded={false}
+    submitted={false}
+    submitting={false}
+/>,
+}
+`;
+
+exports[`components/invite-form renders with submitted and submitSucceeded 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <FormSuccess
+        onClick={[Function]}
+    />
+</div>,
+  "nodes": Array [
+    <div>
+      <FormSuccess
+            onClick={[Function]}
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 1,
+      "_context": Object {},
+      "_currentElement": <InviteForm
+        actions={
+                Object {
+                        "requestInvite": [Function],
+                      }
+        }
+        error={undefined}
+        handleSubmit={[Function]}
+        onClose={[Function]}
+        submitFailed={false}
+        submitSucceeded={true}
+        submitted={true}
+        submitting={false}
+/>,
+      "_debugID": 5,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": InviteForm {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onSubmit": [Function],
+        "props": Object {
+          "actions": Object {
+            "requestInvite": [Function],
+          },
+          "error": undefined,
+          "handleSubmit": [Function],
+          "onClose": [Function],
+          "submitFailed": false,
+          "submitSucceeded": true,
+          "submitted": true,
+          "submitting": false,
+        },
+        "refs": Object {},
+        "renderField": [Function],
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <FormSuccess
+                    onClick={[Function]}
+          />
+</div>,
+        "_debugID": 6,
+        "_renderedOutput": <div>
+          <FormSuccess
+                    onClick={[Function]}
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <InviteForm
+    actions={
+        Object {
+            "requestInvite": [Function],
+          }
+    }
+    error={undefined}
+    handleSubmit={[Function]}
+    onClose={[Function]}
+    submitFailed={false}
+    submitSucceeded={true}
+    submitted={true}
+    submitting={false}
+/>,
+}
+`;

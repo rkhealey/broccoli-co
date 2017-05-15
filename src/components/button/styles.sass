@@ -1,0 +1,25 @@
+@import '~global/borders'
+@import '~global/colors'
+@import '~global/type'
+
+
+.button
+  text-align: center
+
+  &.default
+    border: 2px solid $color-primary
+    border-radius: $border-radius
+    color: $color-primary
+    font-weight: $font-weight-bold
+    margin: 25px 0
+    padding: 15px 25px
+
+    &:hover
+      background-color: $color-primary
+      color: $white
+
+  &.transparent
+    color: $grey
+
+    &:hover
+      color: $grey
